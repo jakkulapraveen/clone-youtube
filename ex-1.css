@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    box-sizing:  border-box;
+    
+}
+.html,body{
+    display: grid;
+    height: 100%;
+    place-items:center;
+}
+.container{
+    background-color: rgb(167, 168, 168);
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.login{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+.username{
+    font-size: 25px;
+    margin-bottom: 15px;
+   
+    border-style: none;
+    border-radius: 4px;
+    height:40px;
+}
+.username::placeholder{
+    padding-left: 5px;
+  font-size:20px ;
+}
+.password::placeholder{
+    padding-left: 5px;
+  font-size:20px ;
+}
+.password{
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+    border-style: none;
+    border-radius: 4px;
+    height:40px;
+}
+.user-icon{
+    width: 18px;
+    height: 18px;
+  }
+.password-icon{
+    width: 18px;
+    height: 18px;   
+}
+
+.sign-in{
+    width:280px;
+    height: 40px;
+   margin-left: 20px; 
+   border-style: none;
+   border-radius:25px;
+   font-size: 20px;
+   margin-top: 15px;
+   margin-bottom: 12px;
+}
+.forgot-password{
+    margin-left: 100px;
+}
+.forgot-password:hover{
+    text-underline-position: below;
+}
